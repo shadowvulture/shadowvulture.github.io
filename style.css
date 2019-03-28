@@ -1,0 +1,56 @@
+html {
+  background-color: #5f6d65;
+}
+button {
+  width: 200px;
+  height: 30px;
+  margin-left: 13px;
+}
+
+nav {
+  background-color: purple;
+}
+
+body {
+  color: #444;
+  background:  gray;
+  font-family: Helvetica, Arial, sans-serif;
+  line-height: 1.3;
+  margin: 0 auto;
+  text-align: center;
+}
+.container {
+    position: relative;
+  }
+
+
+main {
+  background-color: green;
+  margin: 20px 0 20px 0;
+  position: absolute;
+margin: auto 0;
+  left: 1%;
+  color: white;
+  font-size: 14px;
+  border: 3px solid white;
+  width: 50%;
+}
+article {
+  background-color: white;
+  position: absolute;
+  right: 0%;
+  color: white;
+  font-size: 14px;
+  width: 45%;
+  right: 1%;
+}
+footer {
+  background-color: yellow;
+  margin: 40px 0 0 0;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+  margin: auto 0;
+
+  position: absolute;
+}
