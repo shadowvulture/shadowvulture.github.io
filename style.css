@@ -1,56 +1,122 @@
 html {
-  background-color: #5f6d65;
+  background-image: url("ocpcamo.jpg");
 }
-button {
-  width: 200px;
-  height: 30px;
-  margin-left: 13px;
-}
-
-nav {
-  background-color: purple;
-}
-
 body {
   color: #444;
-  background:  gray;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.3;
-  margin: 0 auto;
-  text-align: center;
+  margin: auto 0;
+
 }
-.container {
+.wrapper {
     position: relative;
   }
-
-
-main {
-  background-color: green;
-  margin: 20px 0 20px 0;
+.head {
   position: absolute;
-margin: auto 0;
+  margin: auto 0;
   left: 1%;
   color: white;
   font-size: 14px;
-  border: 3px solid white;
-  width: 50%;
+  width: 20%;
 }
-article {
-  background-color: white;
+.derek {
+  height: 50px;
+  width: 250px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.button1 {
+  width: 200px;
+  height: 50px;
+  margin-left: 300px;
+  margin-top: 5px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  background-color: #2f473a;
+  color: white;
+}
+.button2 {
+  width: 200px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 5px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  background-color: #2f473a;
+  color: white;
+}
+.button3 {
+  width: 200px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 5px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  background-color: #2f473a;
+  color: white;
+}
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+nav {
+  background-color: #2f473a;
+  height: 60px;
+}
+/* End of header */
+
+
+main {
+  margin: 20px 0 20px 0;
+  top: 30px;
+  left: 10px;
+  color: white;
+  font-size: 14px;
   position: absolute;
-  right: 0%;
+  width: 90%;
+  }
+  .maincontent {
+    text-align: center;
+    width: 560px;
+    height: auto;
+    left: 15px;
+    top: 5px;
+    }
+.afghanistan {
+  height: 350px;
+  width: 560px;
+  margin-left: 10px;
+  padding-top: 15px;
+}
+.mywork {
+  background-color: rgba(222, 226, 213, 0.5);
+  position: absolute;
+  right: 30px;
+  top: 95px;
   color: white;
   font-size: 14px;
   width: 45%;
-  right: 1%;
+  text-align: center;
+}
+li {
+  text-align: left;
+}
+.contact {
+  background-color: rgba(222, 226, 213, 0.5);
+  position: absolute;
+  right: 30px;
+  top: 250px;
+  color: white;
+  font-size: 14px;
+  width: 45%;
+  text-align: center;
 }
 footer {
-  background-color: yellow;
+  background-color: #2f473a;
   margin: 40px 0 0 0;
   bottom: 0%;
   right: 0%;
   left: 0%;
   margin: auto 0;
-
   position: absolute;
 }
+@media
